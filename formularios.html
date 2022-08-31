@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./styles.css" />
+
+</head>
+
+<body>
+    <main>
+        <h1 class="lines-effect"> Los Hombres Invisibles </h1>
+        <p>Un hombre joven,Gerardo,es abandonado por su esposa poco antes de perder a sus
+            padres.Hundido, se propone comenzar de cero y devolver sentido a su vida buscando
+            el rastro de una tribu misteriosa, los hombres invisibles, los ultimos indigenas
+            de America que aun no han entrado en contacto con la civilizacion. Haciendo suyo el
+            ejemplo del pintor Paul Gauguin, el personaje central de esta vigorosa novela se
+            pierde en la selva, donde encontrara, despues de curiosos percances, la senda del
+            amor y de la fraternidad, al reconocer en los otros una tabla de salvacion para su atormentado yo.
+            Los hombres invisibles es un relato de aventuras en el que Mario Mendoza, ganador
+            del Premio Biblioteca Breve 2002, abandona los escenarios urbanos de sus anteriores
+            obras para construir una historia de esperanza en medio de la naturaleza tropical
+            americana. La gran acogida que han dispensado los lectores colombianos a la que es,
+            quizas, la novela mas personal de Mendoza demuestra la fuerza de la prosa de este
+            autor imprescindible de las letras hispanas</p>
+        <figure>
+            <img src="./img/Imagen.jpg" alt="portada de un libro" width="300px" height="400px">
+            <figcaption>texto interesante</figcaption>
+        </figure>
+        <video src="./img/video.mp4" controls preload="auto"></video>
+        <h2>FORMULARIO</h2>
+        <form>
+            <label for="nombre">
+                <span>¿Cual es tu nombre?</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+            <label for="direccion">
+                <span>Escribe tu direccion</span>
+                <input type="text" name="direccion" id="direccion" autocomplete="direccion" required>
+            </label>
+            <label for="correo">
+                <span>Correo electronico</span>
+                <input type="email" name="correo" id="correo" autocomplete="correo" required>
+            </label>
+            <label for="ciudad">
+                <span>¿En que ciudad te encuentras?</span>
+                <input type="text" name="ciudad" id="ciudad" autocomplete="ciudad" required>
+            </label>
+            <label for="telefono">
+                <span>numero de telefono</span>
+                <input type="text" name="telefono" id="telefono" autocomplete="telefono" required>
+            </label>
+            <label for="fecha">
+                <span>Digita la fecha de el registro</span>
+                <input type="datetime-local" name="fecha" id="fecha" autocomplete="fecha" required>
+            </label>
+            <input type="submit">
+
+            <form action="">
+                <span>¿esta estudiando?</span>
+                <select name="Estudio" id="">
+                    <option value="Si">si</option>
+                    <option value="no">no</option>
+
+                </select>
+                <span>¿en que ciudad vive?</span>
+                <input list="Seleciona">
+                <datalist id="Seleciona">
+                    <option value="Bogota"></option>
+                    <option value="Cali"></option>
+                    <option value="Medellin"></option>
+                    <option value="Ibague"></option>
+                    <option value="Armenia"></option>
+                </datalist>
+                <input type="submit" name="" id="">
+            </form>
+            
+    </main>
+    <footer>
+
+    </footer>
+    <p style="color: green;" texto de prueba></p>
+
+</body>
+
+</html>
